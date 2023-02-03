@@ -14,7 +14,7 @@ The default WordPress Health Check returns notices when scheduled actions are no
 
 _persistent_object_cache | page_cache_
 
-The default WordPress Health Check returns advice to utilize page and object caching, which however slight, increases the risks of error and disruption to the end user and normal operation of the website. Furthermore, our tests have concluded that in every tested instance we did not find performance gains when using either of these caching practices, and in many instances the caching resulted in poor performance. For these reasons this part of the Health Check has been disabled by the applicable filters. 
+The default WordPress Health Check returns advice to utilize page and object caching, which however slight, increases the risks of error and disruption to the end user and normal operation of the website. Furthermore, our tests have concluded that in every tested instance we did not find performance gains when using either of these caching practices, and in many instances the caching resulted in diminished performance. For these reasons this part of the Health Check has been disabled by the applicable filters. 
 
 ## Section B
 
