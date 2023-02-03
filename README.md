@@ -18,7 +18,7 @@ The default WordPress Health Check returns advice to utilize page and object cac
 
 ## Section B
 
-This filter interrupt the directive to hide the Action Scheduler link in the admin Dashboard, and makes the page link available for the Action Scheduler in the admin Dashboard. 
+This filter changes the directive from hiding to showing the link in the admin Dashboard to the Action Scheduler page. 
 
 ## Section C
 
