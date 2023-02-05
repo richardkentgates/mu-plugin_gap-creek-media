@@ -4,7 +4,7 @@ This repository is for public disclosure of PHP code used to modify the default 
 
 ## Section A
 
-***_theme_version | plugin_version | plugin_theme_auto_updates_
+***_theme_version | plugin_version | plugin_theme_auto_updates_***
 
 The default WordPress Health Check returns warnings when updates are required for plugins and themes, and when autoupdates for themes and plugins are disabled, however this is a needless notice and is disabled in the following filter. Updates are run mannually by us to ensure everything continues to opperate properly and to resolve any issues that may arise; see sections C and D.
 
