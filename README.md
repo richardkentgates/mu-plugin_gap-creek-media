@@ -1,6 +1,6 @@
 # Must Use Plugin
 
-This repository is for public disclosure of PHP code used to modify the default functionality of [WordPress](https://wordpress.org/) based websites managed by [Gap Creek Media](https://gapcreekmedia.com/), using predefined filters provided in the WordPress and [Action Scheduler](https://wordpress.org/plugins/action-scheduler/) documentation. See the sections below for references outlined in the PHP comments of the plugin [file](https://github.com/richardkentgates/mu-plugin_gap-creek-media/blob/57b18ebb680f527caa71bb14bbc16b33ecc6f21e/gap-creek-media.php).
+This repository is for public disclosure of PHP code used to modify the default functionality of WordPress based websites managed by [Gap Creek Media](https://gapcreekmedia.com/), according the the [add_filter](https://developer.wordpress.org/reference/functions/add_filter/) section of the WordPress documentation. See the sections below for references outlined in the PHP comments of the plugin [file](https://github.com/richardkentgates/mu-plugin_gap-creek-media/blob/57b18ebb680f527caa71bb14bbc16b33ecc6f21e/gap-creek-media.php).
 
 ## Section A
 
