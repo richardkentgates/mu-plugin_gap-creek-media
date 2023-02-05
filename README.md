@@ -4,19 +4,19 @@ This repository is for public disclosure of PHP code used to modify the default 
 
 ## Section A
 
-_theme_version | plugin_version | plugin_theme_auto_updates_
+***_theme_version | plugin_version | plugin_theme_auto_updates_
 
 The default WordPress Health Check returns warnings when updates are required for plugins and themes, and when autoupdates for themes and plugins are disabled, however this is a needless notice and is disabled in the following filter. Updates are run mannually by us to ensure everything continues to opperate properly and to resolve any issues that may arise; see sections C and D.
 
-_scheduled_events_
+***_scheduled_events_
 
 The default WordPress Health Check returns notices when scheduled actions are not taken on time. However, PHP does not run unless there is a request sent to the server so scheduled actions may be delayed during slow periods of web traffic. Once you see this warning the website has already initiated whatever scheduled actions were delayed because you loading the website initiated PHP to run, making this is an unnecessary notice. For these reasons, notices are disabled by the applicable filters.
 
-_background_updates_
+***_background_updates_
 
 The default WordPress Health Check returns a notice that background updates are not opperationa. We manage updates to the website and underlying software mannually to ensure quick resolution should any issues arise. For these reasons, notices are disabled by the applicable filters.
 
-_persistent_object_cache | page_cache_
+***_persistent_object_cache | page_cache_
 
 The default WordPress Health Check returns advice to utilize page and object caching, which however slight, increases the risks of error and disruption to the end user and normal operation of the website. Furthermore, our tests have concluded that in every tested instance we did not find performance gains when using either of these caching practices, and in many instances the caching resulted in diminished performance. For these reasons this part of the Health Check has been disabled by the applicable filters. 
 
