@@ -10,7 +10,6 @@ add_filter('auto_core_update_send_email', '__return_false');
 add_filter('site_status_tests', function (array $tests) { 
   unset($tests['direct']['theme_version'],
         $tests['direct']['plugin_version'],
-        $tests['direct']['scheduled_events'],
         $tests['direct']['persistent_object_cache'],
         $tests['async']['page_cache']);
   return $tests;
